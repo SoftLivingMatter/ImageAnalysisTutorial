@@ -5,7 +5,7 @@
 ## Installation and Usage Instructions Locally
 1. Clone this repository in a new folder 
 2. Install Jupyter books to your environment - ```pip install -U jupyter-book``` (ideally should have an envrionment.yml file)
-3. Render books: Navigate to the book's parent directory and run the following command to build the book: ```jupyter-book build ImageAnalysisTutorial```
+3. Render books: Navigate to the book's parent directory and run the following command to build the book: ```jupyter-book build ImageAnalysisTutorial```. This will create a new _build directory under your ImageAnalysisTutorial folder.
 4. If you want to add or delete a file/notebook, make sure to reflect those changes in the toc file and rebuild your book
 
 
@@ -22,7 +22,8 @@
 
 
 ## For future deployment without hosting locally
-Can deploy to GitHub pages by setting up GitHub Pages to serve the ```_build/html``` folder as a website. Navigate to the repository settings in GitHub, scroll to the "Pages" section, and choose the branch that contains the book’s HTML files (usually main or gh-pages but have not tested it). 
+- Can deploy to GitHub pages by setting up GitHub Pages to serve the ```_build/html``` folder as a website.
+- Navigate to the repository settings in GitHub, scroll to the "Pages" section, and choose the branch that contains the book’s HTML files (usually main or gh-pages but have not tested it). 
 
 
 ## Other from Template
