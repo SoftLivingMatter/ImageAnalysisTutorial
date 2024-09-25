@@ -1,7 +1,6 @@
 # Image Analysis Tutorial Instructional Usage
 
 
-(section-label)=
 ## Installation and Usage Instructions Locally
 1. Clone this repository in a new folder 
 2. Install Jupyter books to your environment - ```pip install -U jupyter-book``` (ideally should have an envrionment.yml file)
