@@ -6,14 +6,12 @@ root: intro
 parts:
   - caption: Introduction
     chapters:
-    - file: README
-    - file: example-markdown
+      - file: README
+      - file: example-markdown
   - caption: Tutorials
     chapters:
-    - file: 1-imaging-basics
-    - file: 2-qualitative-image
-    - file: 3-quantitative-analysis
-    - file: 4-parsing-stats
-    - file: 5-ml-ai
-   
-
+      - file: imaging-basics
+      - file: qualitative-image
+      - file: quantitative-analysis
+      - file: parsing-stats
+      - file: ml-ai
