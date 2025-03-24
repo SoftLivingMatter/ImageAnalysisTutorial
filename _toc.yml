@@ -10,6 +10,7 @@ parts:
       - file: example-markdown
   - caption: Tutorials
     chapters:
+      - file: princeton-clusters
       - file: imaging-basics
       - file: qualitative-image
       - file: quantitative-analysis
